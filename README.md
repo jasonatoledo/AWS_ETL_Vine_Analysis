@@ -33,3 +33,5 @@ https://github.com/jasonatoledo/AWS_ETL_Vine_Analysis/blob/main/Resources/AWS_ET
 
 
 ## Summary
+
+I was not surprised to see that the Vine reviews had a higher % of 5 star ratings than the Non-Vine reviews. As seen above in my AWS_ETL_Summary screenshot, we can clearly see there is a slight bias for Vine subscribers to have more 5 star reviews. If I were to add another analysis to support this, I would also filter the original Vine DataFrame using the "verified_purchase" column values set to "Y" only as the next step in my analysis.
