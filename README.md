@@ -2,7 +2,11 @@
 
 ## Overview
 
+The purpose of the Vine ETL analysis was to retrieve an Amazon dataset of my choice and read that into a Spark DataFrame. The dataset I chose was the Video Games dataset because I am a gamer. From here, I created a new DataFrame that contained the review information and Vine information. I cleaned up the dataframe by pulling the reviews with 20+ total votes and at least 50% or greater helpful votes. The final steps included determining how many total 5 star ratings Vine and Non-Vine ratings there were total as well as their respective percentages.
+
 ### Results
+
+I can say that I was not surprised to see that the paid-Vine results had more 5 star reviews compared to the non-Vine reviews but there were definitely a lot less reviews.
 
 
 - How many Vine reviews and non-Vine reviews were there?
